@@ -24,9 +24,10 @@ and returns a shortlist of words that would have given the same score for all th
     guesses.append({'check_word':'hiker', 'score': '10022'})
     guesses.append({'check_word':'', 'score': '00222'})
     guesses.append({'check_word':'', 'score': '22010'})
-```
-    if you run the program with the above setting 
-    you will get a shortlist of 'ether' and 'other' 
-    which are the only two words that fit all the 
-    scores above (other was the correct answer for wordle 247)
+```   
+
+if you run the program with the above setting 
+you will get a shortlist of 'ether' and 'other' 
+which are the only two words that fit all the 
+scores above (other was the correct answer for wordle 247)
 
