@@ -34,5 +34,5 @@ and returns a shortlist of words that would have given the same score for all th
 if you run the program with the above setting 
 you will get a shortlist of 'ether' and 'other' 
 which are the only two words that fit all the 
-scores above (other was the correct answer for wordle 247)
+scores above ('other' was the correct answer for wordle 247)
 
