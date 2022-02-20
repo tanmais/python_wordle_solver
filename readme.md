@@ -17,14 +17,14 @@ and returns a shortlist of words that would have given the same score for all th
     any guesses that do not have 5 characters in their check_word and score will be ignored
 
     for example in wordle 247 if your choices were chasm, under and hiker .. you will set it up as
-
+```
     guesses = []
     guesses.append({'check_word':'chasm', 'score': '01000'})
     guesses.append({'check_word':'under', 'score': '00022'})
     guesses.append({'check_word':'hiker', 'score': '10022'})
     guesses.append({'check_word':'', 'score': '00222'})
     guesses.append({'check_word':'', 'score': '22010'})
-
+```
     if you run the program with the above setting 
     you will get a shortlist of 'ether' and 'other' 
     which are the only two words that fit all the 
