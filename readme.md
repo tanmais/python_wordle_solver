@@ -12,11 +12,16 @@ and returns a shortlist of words that would have given the same score for all th
 - guesses and scores need to be updated in line 55 onwards
 - example below
 
-    core is 0 = grey, 1 = orange, 2 = green
+    code is 0 = grey, 1 = orange, 2 = green
     you can comment out any of the guesses by putting a # in front of it
     any guesses that do not have 5 characters in their check_word and score will be ignored
 
-    for example in wordle 247 if your choices were chasm, under and hiker .. you will set it up as
+    for example in wordle 247 if your choices were 
+    - **chasm** (score grey-orange-grey-grey-grey)
+    - **under** (score grey-grey-grey-green-green) and 
+    - **hiker** (score orange-grey-grey-green-green)
+    
+    .. you will set it up as
 ```
     guesses = []
     guesses.append({'check_word':'chasm', 'score': '01000'})
