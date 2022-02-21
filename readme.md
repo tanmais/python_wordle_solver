@@ -1,6 +1,6 @@
-This is a small program in Python to help solve wordle riddles. It takes
+This is a small program in Python to help solve Wordle riddles. It takes
 your guesses and their scores, compares them against the wordle masterlist
-and returns a shortlist of words that would have given the same score for all the guesses
+and returns a shortlist of words that you can use as your next guess ...
 
 
 # Usage 
